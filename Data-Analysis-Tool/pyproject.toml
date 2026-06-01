@@ -1,1 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "data-analysis-tool"
+version = "1.0.0"
+description = "Data Sanitization and Exploration Engine"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+    { name = "jagathskumara320" }
+]
+
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=2.0",
+    "plotly>=5.0",
+    "scikit-learn>=1.0",
+    "scipy>=1.10"
+]
+
+[project.urls]
+Repository = "https://github.com/jagathskumara320/Statistical_Learning_e23184/edit/main/Data-Analysis-Tool"
+
+[tool.setuptools]
+packages = ["data_analysis"]
